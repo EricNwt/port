@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/titles.css" rel="stylesheet">
+    <link href="css/sections.css" rel="stylesheet">
+    <link href="css/progress.css" rel="stylesheet">
+    <link href="css/buttons.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav class="bg-orange-500">
+            <a href="" class="hover:bg-blue-600 font-semibold text-white">Sobre</a> 
+            <a href="" class="hover:bg-blue-600 font-semibold text-white">Habilidades</a> 
+            <a href="" class="hover:bg-blue-600 font-semibold text-white">Projetos</a>
+            <a href="" class="hover:bg-blue-600 font-semibold text-white">Contato</a> 
+        </nav>
+    </header>
+    <section class="section bg-blue-500">
+        <h1 class="title text-white text-2xl">Sobre</h1>
+        <p class="subtitle text-white">
+            Olá, me chamo Eric tenho 21 anos e trabalho como desenvolvedor web, especializado em planejamento, construção e manutenção de sites.
+            Comecei a aprender programação no YouTube quando eu tinha 13 anos, com um youtuber pouco conhecido, mas que sabia transmitir as noções básicas de desenvolvimento. 
+            Após concluir o ensino médio, me matriculei no curso de graduação em análise e desenvolvimento de sistemas e encontrei algumas dificuldades nas matérias do segundo semestre.
+            Atualmente, estou no quarto semestre e a cada dia me sinto mais feliz, pois percebi que esta é realmente a minha área.
+        </p>
+    </section>
+    <section class="section bg-blue-500">
+        <h1 class="title text-white text-2xl">Habilidades</h1>
+        <h3 class="title text-white text-xl">HTML</h3>
+        <progress class="progress-bar" max="100" value="80">
+            80%
+        </progress>
+        <h3 class="title text-white text-xl">CSS</h3>
+        <progress class="progress-bar" max="100" value="80">
+            80%
+        </progress>
+        <h3 class="title text-white text-xl">JavaScript</h3>
+        <progress class="progress-bar" max="100" value="80">
+            80%
+        </progress>
+        <h3 class="title text-white text-xl">Tailwind</h3>
+        <progress class="progress-bar" max="100" value="60">
+            60%
+        </progress>
+        <h3 class="title text-white text-xl">Angular</h3>
+        <progress class="progress-bar" max="100" value="50">
+            50%
+        </progress>
+        <h3 class="title text-white text-xl">Bootstrap</h3>
+        <progress class="progress-bar" max="100" value="70">
+            70%
+        </progress>
+    </section>
+    <section class="bg-blue-500">
+        <h1 class="title text-white text-2xl">Projetos</h1>
+        <a href="https://ericnwt.github.io/LK-restaurant/" target="_blank"><input class="button bg-green-500 roundend" type="button" value="Lk-Restaurant"></a>
+        <a href="https://ericnwt.github.io/orcamento/" target="_blank"><input class="button bg-green-500 roundend" type="button" value="Orçamento"></a>
+        <a href="https://tiopatinhas.netlify.app/" target="_blank"><input class="button bg-green-500 roundend" type="button" value="Tio Patinhas"></a>
+        <a href="https://ericnwt.github.io/Vista_Bela/" target="_blank"><input class="button bg-green-500 roundend" type="button" value="Vista-Bela"></a>
+        <a href="https://ericnwt.github.io/Conversor/" target="_blank"><input class="button bg-green-500 roundend" type="button" value="Conversor"></a>
+    </section>
+    <section class="bg-blue-500">
+        <h1 class="title text-white text-2xl">Contato</h1>
+        <form class="button" action="https://formsubmit.co/your@email.com" method="POST">
+            <label for="email">E-mail</label><br>
+            <input type="email" name="email" id="email" required><br>
+            <label for="message">Mensagem</label><br>
+            <input type="text" name="message" id="message" required><br>
+            <button class="bg-green-500 roundend" type="submit">Enviar</button>
+       </form> 
+    </section>
+    <footer class="bg-orange-500">
+        <h1>Test</h1>
+    </footer>
+</body>
+</html>
